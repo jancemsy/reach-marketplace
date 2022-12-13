@@ -1,0 +1,278 @@
+/* navigation */
+@media only screen and (max-width: 1037px) {
+
+  .back-link-desktop{ 
+    display: none;
+  }
+  .mobile-top-nav { 
+    display:block!important; 
+    padding:10px;
+  }
+
+  .mobile-top-nav .accessories-sub-filter .item{
+    border-radius: 4px;
+  }
+
+  .product-top-nav .accessories-sub-filter .item{
+		width:50%;
+	}
+
+	.product-top-nav .accessories-sub-filter{
+		margin:0px 0px 20px 0px;
+	}
+  .navigation {
+    width: 100%;
+    left: 0px !important;
+    margin: 0px !important;
+  }
+  .navigation-desktop {
+    display: none;
+  }
+  .navigation-mobile-container {
+    display: flex !important;
+    margin: 0px !important;
+    padding-left: 10px;
+    width: 97%;
+    min-width: 97%;
+  }
+  .navigation-mobile-container .navigation-mobile {
+    width: auto !important;
+    flex: 1;
+    position: relative;
+    padding: 0;
+    color: #3376cd;
+    border: 3px solid #3376cd;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 60px;
+  }
+
+  .navigation-mobile-container .cart-icon {
+    margin-top: 10px;
+    width: 68px;
+  }
+
+  .navigation-mobile-container .cart-icon button {
+    border: none;
+    background: none;
+    font-size: 26px;
+    font-weight: bold;
+    display: block;
+    margin: 25px auto;
+    position: relative;
+  }
+
+  .navigation-mobile-container .cart-icon .my-cart-count {
+    position: absolute;
+    font-size: 14px;
+    padding: 0px;
+    color: #fff;
+    background-color: #3376CD;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -10px;
+    right: -10px;
+  }
+
+  .navigation-mobile-container .cart-icon .my-cart-count.limit {
+    font-size: 10px;
+  }
+
+  .navigation-mobile-container .cart-icon .my-cart-count.limit {
+    font-size: 10px;
+  }
+
+  .navigation-mobile .previous-btn:after {
+    position: absolute;
+    padding-left: 7px;
+    margin-top: -15px;
+    font-weight: normal;
+    font-size: 60px;
+  }
+  .navigation-mobile .previous-btn {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    background: #3376cd;
+    width: 65px;
+    height: 63px;
+    position: absolute;
+    left: -2px;
+    top: -1px;
+    border-radius: 4px;
+    z-index: 11;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+  }
+  .navigation-mobile .title-bar {
+    position: absolute;
+    width: 95% !important;
+    padding-top: 12px;
+    font-size: 20px;
+    padding-left: 30px;
+    height: 50px;
+    display: block;
+    margin-left: 65px;
+    margin-right: 60px;
+    top: 0px;
+    color: rgb(51, 118, 205);
+  }
+
+  .navigation-mobile .count-bar {
+    color: #fff;
+    height: 24px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    display: block;
+    width: 40px !important;
+    position: absolute;
+    right: -1px;
+    top: -3px;
+    text-indent: 1px;
+    text-align: center;
+    letter-spacing: 3px;
+    background: rgb(51, 118, 205);
+  }
+  
+  .msft-item-over-details .post-description{
+    padding: 30px 0;
+    width: 100%;
+
+  }
+  
+  .msft-item-over-details .post-description h3,
+  .msft-item-over-details .post-description p,
+  .msft-item-over-details .post-description .links
+  {
+    padding: 0 30px;
+  }
+
+  .mobile-msft-config-cart-img{
+    display: block;
+  }
+
+  .mobile-msft-config-cart-img img {
+    width: 100%;
+  }
+
+  .msft-config-cart .msft-config-cart-img,
+  .msft-config-cart .cart-summary-header,
+  .msft-config-cart .sub-total,
+  .msft-config-cart .delivery-container{
+    display: none;
+  }
+
+  .msft-config-details .msft-config-title,
+  .msft-config-details .msft-config-steps,
+  .msft-config-details .item-config-list{
+    padding: 0 10px;
+  }
+
+  .msft-config-cart-container{
+    -moz-box-shadow: inset inset 0 3px 6px 0px #e2e2e2;
+    -webkit-box-shadow: inset inset 0 3px 6px 0px #e2e2e2;
+    box-shadow: inset inset 0 3px 6px 0px #e2e2e2;
+    border-radius: 0;
+  }
+
+  .msft-config-cart-container{
+    -moz-box-shadow: inset inset 0 3px 6px 0px #e2e2e2;
+    -webkit-box-shadow: inset inset 0 3px 6px 0px #e2e2e2;
+    box-shadow: inset inset 0 3px 6px 0px #e2e2e2;
+    border-radius: 0;
+  }
+
+  .msft-mobile-subtotal{
+    display: block;
+  }
+
+  .msft-mobile-subtotal .subtotal-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .msft-mobile-subtotal .subtotal-title.shadow{
+    box-shadow: 0 3px 6px #e2e2e2;
+  }
+
+  .msft-mobile-subtotal .subtotal-title .price {
+    font-weight: bold;
+  }
+
+  .msft-mobile-subtotal .subtotal-title .title{
+    display: flex;
+    align-items: center;
+  }
+
+  .msft-mobile-subtotal .subtotal-title .title i{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  .my-msft-cart-container{
+    display: none;
+  }
+
+  .my-msft-cart-container.show{
+    display: block;
+  }
+
+  .msft-config-cart-container .msft-cart-btn-container{
+    margin-top: 30px;
+  }
+
+  .form-container-inner{
+    width: 883px;
+  }
+
+  .form-container .header-form .title{
+    margin: 0 10px;
+  }
+
+  .form-container .header-form .pdf-form-content{
+    margin: 0 10px;
+    margin-top: 20px;
+  }
+
+  .form-container .header-form .quotebtncontainer{
+    margin: 0 10px;
+  }
+}
+
+@media only screen and (max-width: 1032px) {
+  .row .column-3{
+    margin: 8px;
+  }
+}
+
+
+@media only screen and (max-width: 770px) {
+  .row .column-3{
+    margin: 8px;
+  }
+  
+  .store{
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .navigation-mobile .previous-btn{
+    width: 60px;
+  }
+
+    .navigation-mobile .title-bar{
+      padding-left: 15px;
+    }
+}

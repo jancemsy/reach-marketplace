@@ -1,0 +1,109 @@
+/*list*/
+@media only screen and (max-width: 1037px) {
+  .products-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .column-4 {
+    width: 100% !important;
+  }
+
+  .row.products-list {
+    margin: 0px;
+  }
+}
+
+/*detail*/
+@media only screen and (max-width: 1037px) {
+  .sc-lkgTHX {
+    margin: 0px;
+  }
+
+  .msft-img-slider {
+    height: auto !important;
+    max-width: 100%;
+  }
+
+  .msft-short-description {
+    margin: 0px;
+    max-width: 100%;
+  }
+  .msft-item-header {
+    display: block;
+    flex-wrap: none;
+    padding: 20px;
+  }
+
+  .msft-item-configure-btn button {
+    width: 100%;
+  }
+
+  .msft-item-tabs {
+    margin: 30px 0px;
+  }
+
+  .msft-item-over-title {
+    margin-top: -30px;
+    width: auto;
+  }
+  .msft-item-details {
+    margin-top: -20px !important;
+    padding-top: 0px !important;
+  }
+  .msft-item-details .msft-img-slider {
+    margin-top: -10px !important;
+  }
+}
+
+@media only screen and (max-width: 660px) {
+  .msft-item-details .msft-item-header  {
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+
+    .msft-item-details .msft-short-description{
+      margin: 0;
+    }
+
+    .msft-item-over-details .msft-item-over-title{
+      width: 100%;
+    }
+
+    .msft-short-description .top{
+      width: 100%;
+    }
+
+    .msft-item-details{
+      width: 100%;
+    }
+
+    .msft-item-container{
+      width: 100%;
+    }
+
+        .msft-config-steps .third-circle .specifics {
+          left: unset !important;
+          right: -30px;
+        }
+}
+
+
+@media only screen and (max-width: 500px) {
+  .msft-img-slider{
+    min-width: auto;
+  }
+
+  .msft-short-description{
+    min-width: auto;
+  }
+
+  .navigation-mobile .title-bar{
+    width: 70% !important;
+  }
+}

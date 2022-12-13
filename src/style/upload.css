@@ -1,0 +1,57 @@
+.upload-container {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.upload-container .error{
+    text-align: left;
+}
+
+.upload-btn {
+    border: none;
+    text-align: center;
+    background-color: rgb(218, 216, 216);
+    height: 50px;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+    transition-duration: 0.6s;
+}
+
+.upload-btn:hover {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.upload-icon-container{
+    color: #c8c8c8;
+}
+
+.upload-icon-container i {
+    font-size: 80px;
+}
+
+.upload-icon-container p{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.import-link{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.upload-container .title{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.upload-container .description {
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.upload-list-container {
+    text-align: center;
+}

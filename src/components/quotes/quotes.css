@@ -1,0 +1,203 @@
+
+.all-quotes{
+  padding:30px 40px 10px 40px;
+  font-family:arial;
+}
+
+.heading-title{
+    font-size:28px;
+    margin-bottom:10px;
+    text-transform: capitalize;
+}
+.heading-items{ display:flex; margin-bottom:15px; padding-bottom:18px;  border-bottom:1px solid #ddd7d7; }
+
+
+.heading-items .item{
+    cursor:pointer;
+    color:#514f4f;
+    margin-right:10px;
+    padding-right:10px;
+}
+
+.heading-items .item:first-child {
+    border-right: 1px solid #7070703b;
+}
+.heading-items .item.active{ color:#3376CD;  text-decoration:underline; }
+.heading-items .item:hover{ text-decoration:underline; }
+.heading-items .item:nth-child(3){ border:none!important; }
+
+.result-grid{
+    margin-bottom:15px;
+    padding:30px 10px 30px 20px;
+}
+
+.result-grid.submitted{
+    color:#707070;
+    background:#7070700a;
+}
+
+.result-grid.pending{
+     color:#3376cddb;
+    background:#c2d8f41c;
+}
+
+.result-grid.submitted{
+     color:#378100;
+    background:#3781000f;
+}
+
+
+.result-grid .item div:not(.left,.right){
+    margin-right:10px; padding-right:20px;
+    border-right: none;
+}
+
+.result-grid .border-right{
+    border-right:1px solid #7070703b!important;
+}
+
+.result-grid .item .left{
+    flex:1;
+    display:flex;
+}
+
+.result-grid .item .right{
+    display:flex;
+    color:#3376CD;
+    justify-content:right;
+    position: relative;
+}
+
+.result-grid .item{
+     display:flex;
+
+}
+
+.result-grid .item .item-id{
+}
+
+.result-grid .item .item-date{
+}
+
+.result-grid .item .item-unit{
+}
+
+.result-grid .item .left div:last-child{
+    border:none!important;
+}
+
+.result-grid .item  .item-download{
+    cursor:pointer;
+}
+
+
+.result-grid .item  .item-submit{
+    cursor:pointer;
+}
+
+.result-grid .item  .item-view{
+    cursor:pointer;
+     border-left:none!important;
+}
+
+.result-grid .item .right div:last-child {
+      border-right:none!important;
+      padding-right:0px;
+}
+
+
+.result-grid .item .item-submit{
+}
+
+.result-grid .item .item-complete{
+}
+
+.myquotes-invoice-container.hide {
+    position: relative;
+    height:0px;
+    display:none;
+}
+.myquotes-invoice-container{
+    margin-top:20px;
+    background:#fff;
+}
+
+.myquotes-invoice-container .quotebtncontainer{
+    display:none;
+}
+
+.myquotes-invoice-container .paginator{
+    display:none;
+}
+
+.myquotes-invoice-container *{
+    color:#000;
+}
+
+
+
+.myquotes-invoice-container .quote-number,
+.myquotes-invoice-container .name{
+    color:#3376CD;
+}
+
+
+
+.mobile.dropdown-icon , .mobile.dropdown-content{
+	display:none;
+    margin-top:-5px;
+}
+
+.printable-quote{
+    padding: 80px;
+}
+
+@media only screen and (max-width: 667px) {
+    .printable-quote {
+            padding: 30px;
+        }
+.item-email,
+.item-view,
+.item-submit{
+	display:none!important;
+    opacity: 0!important;
+}
+
+.mobile.dropdown-icon *{
+	font-size:30px!important;
+
+}
+.mobile.dropdown-icon{
+	height:30px!important;
+	width:10px!important;
+	overflow:hidden;
+	background:#fbfbfb;
+	z-index:222;
+	display: block!important;
+	position:absolute;
+}
+.mobile.dropdown-content.opened{
+	background:#fff;
+	display: block!important;
+	width:300px;
+	position:absolute;
+}
+
+.mobile.dropdown-icon.opened{
+    z-index:9222!important;
+}
+
+.mobile.dropdown-content.opened{
+    z-index:800!important;
+}
+
+
+.mobile.dropdown-content div{
+    color:#000;
+	padding-left:10px;
+	border-bottom:1px solid #eee;
+	padding-bottom:10px;
+	display:block;
+	margin:10px;
+}
+}

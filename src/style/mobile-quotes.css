@@ -1,0 +1,24 @@
+@media only screen and (max-width: 1037px) {
+	.all-quotes{ padding:10px ; }
+	.all-quotes .result-grid .left div:nth-child(2){ display:none; }
+	.item-download{ display:none; }
+	.item-unit{ display: none;}
+    .item-email{ display:flex!important; }
+}
+
+@media only screen and (max-width: 660px) {
+	.form-container .header-form .title{
+		margin: 0 10px 0px !important;
+	}
+
+	.form-container .header-form .quotebtncontainer{
+		padding: 0;
+	}
+
+	.form-container .header-form .quotebtncontainer button{
+		width: 33%;
+	}
+	.form-container .header-form .quotebtncontainer button:first-child {
+		margin-left: 0;
+	}
+}
